@@ -10,8 +10,8 @@ python:
   - 3.6
 install:
   - pip install -r requirements/dev.txt
-  - nvm install 6.10
-  - nvm use 6.10
+  - nvm install 8.11.2
+  - nvm use 8.11.2
   - npm install
 before_script:
   - npm run lint
